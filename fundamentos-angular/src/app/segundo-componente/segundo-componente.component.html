@@ -2,5 +2,6 @@
 <p> Nome: {{ nome | uppercase }} </p>
 <p> Data de Nascimento: {{ dataNascimento | date:"dd/MM/yyyy" }}</p>
 <img [src]="urlImagem" width="300" height="400"><br /><br />
+
 <button (click)="mostrarDataNascimento()" type="button" >Mostrar Data de Nascimento</button>
 
