@@ -10,4 +10,13 @@ export class ComponentePersonalizadoComponent {
   @Input() nome = ""
   @Input() sobrenome = "";
 
+  nome1 = "";
+
+  adicionarNome1(){
+
+    console.log(`O nome ${this.nome1} foi adicionado`);
+
+
+  }
+
 }
