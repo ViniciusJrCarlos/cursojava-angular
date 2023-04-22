@@ -14,6 +14,9 @@ import { ComponentePersonalizadoComponent } from './componente-personalizado/com
 import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 import { ExemplosServicos1Component } from './exemplos-servicos1/exemplos-servicos1.component';
+import { CicloDeVidaComponent } from './ciclo-de-vida/ciclo-de-vida.component';
+import { CicloDeVidaPaiComponent } from './ciclo-de-vida-pai/ciclo-de-vida-pai.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { ExemplosServicos1Component } from './exemplos-servicos1/exemplos-servic
     ComponentePersonalizadoComponent,
     ComponentePaiComponent,
     ComponenteFilhoComponent,
-    ExemplosServicos1Component
+    ExemplosServicos1Component,
+    CicloDeVidaComponent,
+    CicloDeVidaPaiComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
